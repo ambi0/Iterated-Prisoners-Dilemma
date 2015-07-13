@@ -19,12 +19,15 @@ $ ./genetic < input.txt
 ```
 
 ### Input Structure
+GA - Genetic Algorithm
+IPD - Iterated Prisoner's Dilemma
+The last six parameters of the input line below are the fitness weights for each heuristic.
 Each line consists of a simulation of the format:
 ```sh
-[Population Size] [Number Genetic Iterations] [Number Compete Iterations] [Selection Rate] [Mutation Rate] [] [] [] [] [] []
+[Population Size] [GA Iterations] [IPD Iterations] [Selection Rate] [Mutation Rate] [IPD Score] [Diversity] [Niceness] [Forgiveness] [Retaliation] [Non-Enviousness]
 ```
 
-Example input:
+Example input.txt:
 ```sh
 100 100 100 .15 .05 1 0 0 0 0 0
 100 100 100 .15 .05 0 1 0 0 0 0
