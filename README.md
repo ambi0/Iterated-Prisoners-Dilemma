@@ -26,7 +26,7 @@ Each line consists of a simulation of the format:
 ```sh
 [Population Size] [GA Iterations] [IPD Iterations] [Selection Rate] [Mutation Rate] [IPD Score] [Diversity] [Niceness] [Forgiveness] [Retaliation] [Non-Enviousness]
 ```
-
+Below is the data to run six simulations.
 Example input.txt:
 ```sh
 100 100 100 .15 .05 1 0 0 0 0 0
