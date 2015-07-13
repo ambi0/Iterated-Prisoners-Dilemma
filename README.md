@@ -21,7 +21,9 @@ $ ./genetic < input.txt
 ### Input Structure
 GA - Genetic Algorithm  
 IPD - Iterated Prisoner's Dilemma  
-The last six parameters of the input line below are the fitness weights for each heuristic.
+The last six parameters of the input line below are the fitness weights for each heuristic.  
+Let W be a fitness weight. 0 <= W <= 1.  
+Selection Rate & Mutation Rate are also between 0 and 1, inclusive.  
 Each line consists of a simulation of the format:
 ```sh
 [Population Size] [GA Iterations] [IPD Iterations] [Selection Rate] [Mutation Rate] [IPD Score] [Diversity] [Niceness] [Forgiveness] [Retaliation] [Non-Enviousness]
