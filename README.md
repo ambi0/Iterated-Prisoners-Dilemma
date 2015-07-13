@@ -19,7 +19,12 @@ $ ./genetic < input.txt
 ```
 
 ### Input Structure
-The first integer, n, is the number of sudoku puzzles and the n 9x9 sudoku puzzles to evaluate follow.
+Each line consists of a simulation of the format:
+```sh
+[Population Size] [Number Genetic Iterations] [Number Compete Iterations] [Selection Rate] [Mutation Rate] [] [] [] [] [] []
+```
+
+Example input:
 ```sh
 100 100 100 .15 .05 1 0 0 0 0 0
 100 100 100 .15 .05 0 1 0 0 0 0
@@ -28,6 +33,5 @@ The first integer, n, is the number of sudoku puzzles and the n 9x9 sudoku puzzl
 100 100 100 .15 .05 0 0 0 0 1 0
 100 100 100 .15 .05 0 0 0 0 0 1
 ```
-
 ### Version
 1.0.0
